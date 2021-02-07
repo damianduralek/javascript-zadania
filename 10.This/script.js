@@ -75,12 +75,12 @@ const calculator = {
   },
   divide: function () {
     this.b === 0
-      ? console.log("Can't divide by 0!")
+      ? console.log("Nie dziel przez 0!")
       : console.log(this.a / this.b);
   },
 };
 
-calculator.input(43, 3);
+calculator.input(69, 420);
 calculator.sum();
 calculator.subtract();
 calculator.multiply();
